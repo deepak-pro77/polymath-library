@@ -1,0 +1,35 @@
+{
+  "name": "polymath-library",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "predev": "node scripts/sync-catalogue.mjs",
+    "dev": "next dev",
+    "prebuild": "node scripts/sync-catalogue.mjs",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "sync": "node scripts/sync-catalogue.mjs"
+  },
+  "dependencies": {
+    "@fontsource-variable/cormorant-garamond": "^5.3.0",
+    "@fontsource-variable/inter": "^5.3.0",
+    "@fontsource-variable/source-serif-4": "^5.3.1",
+    "@fontsource/cinzel": "^5.3.0",
+    "@supabase/supabase-js": "^2.118.0",
+    "epubjs": "^0.3.93",
+    "next": "16.4.3",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/turbopack": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.3",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
